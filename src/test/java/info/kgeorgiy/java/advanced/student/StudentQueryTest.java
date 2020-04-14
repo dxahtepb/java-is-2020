@@ -139,7 +139,7 @@ public class StudentQueryTest implements StudentQuery {
     public List<String> getFirstNames(final List<Student> students) {
         final List<String> result = new ArrayList<>();
         for (final Student student : students) {
-            result.add(student.getLastName());
+            result.add(student.getFirstName());
         }
         return result;
     }
